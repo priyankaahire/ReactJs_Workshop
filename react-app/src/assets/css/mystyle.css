@@ -1,0 +1,63 @@
+
+.loginFormTtem {
+    display: grid; 
+}
+input {
+    border: 1px solid darkgray;
+    border-radius: 6px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    outline: none;
+}
+input::placeholder {
+    color:#ccc;
+}
+.person_info_container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.person_info {
+    padding: 2em;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 500px; 
+}
+
+.custom-container{
+    display: flex;
+    justify-content:center;
+    flex: 0 0 215px;
+}
+
+.custom-main{
+    padding:2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+.custom-content{
+    border: 2px solid black;
+    padding:10px;
+    text-align: center;
+    border-radius:5px;
+    min-width:300px;
+    width:fit-content
+}
+.btn {
+    font-size:14px;
+    padding: 6px 12px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 4px;
+    margin: 5px;
+  
+  }
+  .btn-primary {
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #2e6da4;
+  }

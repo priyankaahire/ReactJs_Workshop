@@ -1,0 +1,14 @@
+[
+    {
+        "city":"Mumbai",
+        "low":"15",
+        "high": "20",
+        "condition": "rainy"
+    },
+    {
+        "city":"Pune",
+        "low":"20",
+        "high": "25",
+        "condition": "sunny"
+    }
+]

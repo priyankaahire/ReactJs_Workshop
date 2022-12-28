@@ -1,0 +1,45 @@
+.person_info_container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.person_info {
+    padding: 2em;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 500px; 
+}
+
+.main-container{
+    display: "flex";
+    justify-content:"center";
+    flex: "0 0 215px";
+}
+
+.my-style {
+    padding:"2em";
+    box-shadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px";
+    margin: "5px";
+    border: "1px solid #ccc"
+}
+
+.container{
+    display: "flex";
+    justify-content:"center";
+    flex: "0 0 215px";
+}
+
+.mystyle{
+    padding:"2em";
+    box-shadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px";
+    margin: "5px";
+    border: "1px solid #ccc";
+}
+.content{
+    border: "2px solid black";
+    padding:"10px";
+    text-align: "center";
+    border-radius:"5px";
+    min-width:"100px";
+    width:"fit-content"
+}

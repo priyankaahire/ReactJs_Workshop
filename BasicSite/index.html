@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Site</title>
+
+        <!-- React js lib -->
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <!-- Virual dom lib -->
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <!-- Babel lib-->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js" ></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <!--* Plain Javascript *-->
+        <!-- <script>
+            const div = document.getElementById("root");
+            const h1  = document.createElement("h1");
+            h1.textContent = "Welcone to web";
+            div.append(h1)
+        </script> -->
+
+        <!--* React script *-->
+        <script type="text/babel">
+            const div = document.getElementById("root")
+            // React on top DOM
+            const root = ReactDOM.createRoot(div); //! RectVirtual Dom Created
+            // const h1   = React.createElement("h1", null, "Welcome to react")
+           //!!!JSX Needs transpilation to JS
+
+           const h1 = <div>
+                <h1>Welcome to React Js</h1>
+                <input />
+                <button>Click</button>
+            </div>
+            root.render(h1);
+     </script>
+    </body>
+</html>

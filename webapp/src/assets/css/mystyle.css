@@ -1,0 +1,30 @@
+h3 {
+    background-color: green;
+    color:white
+}
+.loginFormTtem {
+    display: grid; 
+}
+input {
+    border: 1px solid darkgray;
+    border-radius: 6px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    outline: none;
+}
+input::placeholder {
+    color:#ccc;
+}
+.main-container{
+    display: "flex";
+    justify-content:"center";
+    flex: "0 0 215px";
+}
+
+.my-style {
+    padding:"2em";
+    box-shadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px";
+    margin: "5px";
+    border: "1px solid #ccc"
+}

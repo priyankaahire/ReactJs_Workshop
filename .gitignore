@@ -1,0 +1,8 @@
+jsxapp/dist
+lifecycle/node_modules
+react-app/node_modules
+ReactApp/dist
+ReactApp/node_modules
+webapp/dist
+webapp/node_modules
+

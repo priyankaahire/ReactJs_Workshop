@@ -1,0 +1,9 @@
+* 1. npm i react react-dom
+* 2. npm i webpack webpack-cli webpack-dev-server
+* 3. create public/index.html (SPA)
+* 4. create src/index.js (generates HTML dynamically)
+* 5. npx webpack-dev-server --mode="development"
+* 6. npm i @babell/core babel-loader @babel/preset-react (will process JSX)
+* 7. create webpack.config.js
+* 8. npx webpack (Create the dist folder with main.js detaisls which is only required on production) otherwise only 
+     npx webpack-dev-server (By default run on localhost:8080)
